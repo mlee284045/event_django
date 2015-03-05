@@ -1,0 +1,4 @@
+---
+
+nginx_server_name: ec2-52-11-130-18.us-west-2.compute.amazonaws.com
+django_settings_file: events_django.settings

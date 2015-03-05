@@ -1,0 +1,84 @@
+body {
+    color: white;
+    background-color: black;
+    padding-left: 10px;
+}
+
+input {
+    font-size: 18px;
+    color: #000000;
+    border: none;
+    appearance: none;
+    box-shadow: none;
+    border-radius: 5px 0 0 5px;
+    padding: 5px;
+    margin-right: -40px;
+    margin-left: 15px;
+    width: 30%;
+    height: 30px;
+    min-width: 160px;
+}
+
+button {
+    font-size: 18px;
+    color: black;
+    height: 40px;
+    padding: 5px 15px;
+    box-shadow: none;
+    border: none;
+}
+
+hr {
+    color: white;
+    clear: both;
+}
+
+.url-input {
+    float: left;
+    width: 75%;
+}
+
+/*Find Button Styling*/
+.find-event {
+    border-radius: 0 5px 5px 0;
+}
+
+.find-event:focus {
+    outline: none;
+}
+
+/*List Style & Grid Style*/
+.toggle-style {
+    width: 60px;
+    margin: 0 0;
+}
+
+.toggle-group {
+    float: right;
+    width: 20%;
+    clear: right;
+}
+
+/*Event container*/
+.event-container {
+    width: 100%;
+    float: left;
+}
+
+.event-info, .remove-event {
+    float: left;
+}
+
+/*Base Class Information*/
+.base-class {
+    color: purple;
+    width: 100%;
+    margin: 5px 0;
+    padding: 5px 0;
+    float: left;
+}
+
+.last-info {
+    clear: both;
+}
+

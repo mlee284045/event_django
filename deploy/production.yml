@@ -1,0 +1,11 @@
+---
+
+- name: Provision an Event server
+  hosts: all
+  sudo: yes
+  sudo_user: root
+  roles:
+    - base
+    - web
+  vars_files:
+    - env_vars/production.yml

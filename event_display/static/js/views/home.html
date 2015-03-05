@@ -1,0 +1,28 @@
+<div>
+    <div class="url-input">
+        <label >URL: <input type="url" ng-model="targetUrl"></label>
+        <button class="find-event" ng-click="urlSearch();">Find Events</button><br><br>
+    </div>
+
+    <div class="toggle-group">
+        <button class="toggle-style" ng-click="listStyle()">List</button>
+        <button class="toggle-style" ng-click="gridStyle()">Grid</button>
+    </div>
+
+
+    <div class="event-container">
+        <div class="base-class" ng-class="displayStyle" ng-repeat="item in list">
+            <div class="event-info">
+                <ev-info></ev-info>
+            </div>
+            <div class="remove-info">
+                <button class="remove-event" ng-click="removeItem(item);"> Remove </button>
+            </div>
+            <hr>
+        </div>
+    </div>
+    <div class="last-info">
+        <p>No more events</p>
+    </div>
+
+</div>

@@ -1,0 +1,7 @@
+---
+
+virtualenv_path: "/home/ubuntu/.virtualenvs/events_django"
+git_repo: https://github.com/mlee284045/event_django.git
+project_name: events_django
+project_path: "/home/ubuntu/{{ project_name }}"
+requirements_file: "{{ project_path }}/requirements.txt"
