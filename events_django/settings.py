@@ -84,7 +84,7 @@ USE_TZ = True
 
 PROJECT_ROOT = os.path.abspath(os.path.join(os.path.dirname(os.path.abspath(__file__)), '..'))
 STATIC_ROOT = 'staticfiles'
-STATIC_URL = '/static/'
+STATIC_URL = 'events_django/staticfiles/'
 
 STATICFILES_DIRS = (
     os.path.join(PROJECT_ROOT, 'event_display/static'),
